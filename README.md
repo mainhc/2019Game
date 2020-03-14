@@ -1,2 +1,2 @@
-# 2019Game
-game
+# hello-world
+Hello world new project template.
