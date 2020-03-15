@@ -104,8 +104,19 @@
         "cocos-services"
       ]
     },
+    "window-1584240495289": {},
     "worker": {}
   },
-  "panels": {},
-  "panelLabelWidth": {}
+  "panels": {
+    "builder": {
+      "x": 769,
+      "y": 57,
+      "width": 654,
+      "height": 722
+    }
+  },
+  "panelLabelWidth": {
+    "builder": null
+  },
+  "panelLabelWidth.builder": null
 }

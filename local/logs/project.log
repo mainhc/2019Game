@@ -1,72 +1,368 @@
-2020-03-13T14:51:24.543Z - normal: Load ~/.CocosCreator/settings.json
-2020-03-13T14:51:24.584Z - normal: Initializing Asset Database
-2020-03-13T14:51:24.585Z - normal: checking language setting...
-2020-03-13T14:51:24.586Z - normal: Language: zh
-2020-03-13T14:51:25.365Z - success: preview server running at http://localhost:7457
-2020-03-13T14:51:25.381Z - success: protocol editor-framework registered
-2020-03-13T14:51:25.381Z - success: protocol app registered
-2020-03-13T14:51:25.381Z - success: protocol theme registered
-2020-03-13T14:51:25.381Z - success: protocol packages registered
-2020-03-13T14:51:25.381Z - success: protocol uuid registerred
-2020-03-13T14:51:25.382Z - success: protocol db registerred
-2020-03-13T14:51:25.382Z - success: protocol thumbnail registerred
-2020-03-13T14:51:25.382Z - success: protocol unpack registerred
-2020-03-13T14:51:25.382Z - success: protocol disable-commonjs registerred
-2020-03-13T14:51:25.478Z - normal: connected!
-2020-03-13T14:51:25.480Z - normal: Check project /Users/guohanchun/Documents/2019Game/2020Game
-2020-03-13T14:51:25.482Z - normal: Initializing project /Users/guohanchun/Documents/2019Game/2020Game
-2020-03-13T14:51:25.495Z - success: adapters loaded
-2020-03-13T14:51:25.499Z - success: asset-db-debugger loaded
-2020-03-13T14:51:25.550Z - success: fb-audience-network loaded
-2020-03-13T14:51:25.578Z - success: fb-live-stream loaded
-2020-03-13T14:51:25.581Z - success: google-play-instant loaded
-2020-03-13T14:51:25.582Z - success: huawei-adapter loaded
-2020-03-13T14:51:25.583Z - success: jkw-adapter loaded
-2020-03-13T14:51:25.584Z - success: jsb-adapter loaded
-2020-03-13T14:51:25.585Z - success: oppo-adapter loaded
-2020-03-13T14:51:25.590Z - success: package-manager loaded
-2020-03-13T14:51:25.591Z - success: qtt-adapter loaded
-2020-03-13T14:51:25.593Z - success: runtime-dev-tools loaded
-2020-03-13T14:51:25.599Z - success: sdkbox loaded
-2020-03-13T14:51:25.602Z - success: ui-kit-preview-extra loaded
-2020-03-13T14:51:25.605Z - success: ui-kit-preview loaded
-2020-03-13T14:51:25.606Z - success: vivo-adapter loaded
-2020-03-13T14:51:25.668Z - success: alipay-minigame loaded
-2020-03-13T14:51:25.732Z - success: assets loaded
-2020-03-13T14:51:25.734Z - success: baidugame-opendata loaded
-2020-03-13T14:51:25.736Z - success: baidugame loaded
-2020-03-13T14:51:25.738Z - success: builder loaded
-2020-03-13T14:51:25.858Z - success: cocos-services loaded
-2020-03-13T14:51:25.862Z - success: console loaded
-2020-03-13T14:51:25.863Z - success: curve-editor loaded
-2020-03-13T14:51:25.873Z - success: fb-instant-games loaded
-2020-03-13T14:51:25.876Z - success: game-window loaded
-2020-03-13T14:51:25.876Z - success: google-instant-games loaded
-2020-03-13T14:51:25.879Z - success: hierarchy loaded
-2020-03-13T14:51:25.881Z - success: huawei-runtime loaded
-2020-03-13T14:51:25.884Z - success: inspector loaded
-2020-03-13T14:51:25.934Z - success: cpk-publish loaded
-2020-03-13T14:51:25.935Z - success: keystore loaded
-2020-03-13T14:51:25.939Z - success: node-library loaded
-2020-03-13T14:51:25.940Z - success: open-recent-items loaded
-2020-03-13T14:51:25.942Z - success: oppo-runtime loaded
-2020-03-13T14:51:25.943Z - success: package-asset loaded
-2020-03-13T14:51:25.943Z - success: preferences loaded
-2020-03-13T14:51:25.947Z - success: project-importer loaded
-2020-03-13T14:51:25.949Z - success: project-settings loaded
-2020-03-13T14:51:25.961Z - success: qtt-runtime loaded
-2020-03-13T14:51:25.964Z - success: scene loaded
-2020-03-13T14:51:25.964Z - success: simulator-debugger loaded
-2020-03-13T14:51:25.965Z - success: sprite-editor loaded
-2020-03-13T14:51:25.967Z - success: store loaded
-2020-03-13T14:51:25.971Z - success: timeline loaded
-2020-03-13T14:51:25.974Z - success: vivo-runtime loaded
-2020-03-13T14:51:25.976Z - success: wechatgame-opendata loaded
-2020-03-13T14:51:25.978Z - success: wechatgame loaded
-2020-03-13T14:51:25.981Z - success: xiaomi-runtime loaded
-2020-03-13T14:51:27.067Z - info: Cocos Service load base data!
-2020-03-13T14:51:31.387Z - normal: Initializing Cocos2d
-2020-03-13T14:51:31.737Z - normal: Initializing engine extends
-2020-03-13T14:51:35.299Z - normal: Loading packages
-2020-03-13T14:51:35.301Z - normal: Watching packages
-2020-03-13T14:51:35.379Z - normal: Run Application
+2020-03-14T15:21:50.925Z - normal: Load ~/.CocosCreator/settings.json
+2020-03-14T15:21:50.980Z - normal: Initializing Asset Database
+2020-03-14T15:21:50.982Z - normal: checking language setting...
+2020-03-14T15:21:50.982Z - normal: Language: zh
+2020-03-14T15:21:52.208Z - success: preview server running at http://localhost:7457
+2020-03-14T15:21:52.223Z - success: protocol editor-framework registered
+2020-03-14T15:21:52.223Z - success: protocol app registered
+2020-03-14T15:21:52.224Z - success: protocol theme registered
+2020-03-14T15:21:52.224Z - success: protocol packages registered
+2020-03-14T15:21:52.224Z - success: protocol uuid registerred
+2020-03-14T15:21:52.224Z - success: protocol db registerred
+2020-03-14T15:21:52.224Z - success: protocol thumbnail registerred
+2020-03-14T15:21:52.224Z - success: protocol unpack registerred
+2020-03-14T15:21:52.224Z - success: protocol disable-commonjs registerred
+2020-03-14T15:21:52.338Z - normal: connected!
+2020-03-14T15:21:52.339Z - normal: Check project /Users/guohanchun/Documents/2019Game/2019Game
+2020-03-14T15:21:52.341Z - normal: Initializing project /Users/guohanchun/Documents/2019Game/2019Game
+2020-03-14T15:21:52.359Z - success: adapters loaded
+2020-03-14T15:21:52.363Z - success: asset-db-debugger loaded
+2020-03-14T15:21:52.462Z - success: fb-audience-network loaded
+2020-03-14T15:21:52.509Z - success: fb-live-stream loaded
+2020-03-14T15:21:52.512Z - success: google-play-instant loaded
+2020-03-14T15:21:52.514Z - success: huawei-adapter loaded
+2020-03-14T15:21:52.515Z - success: jkw-adapter loaded
+2020-03-14T15:21:52.516Z - success: jsb-adapter loaded
+2020-03-14T15:21:52.517Z - success: oppo-adapter loaded
+2020-03-14T15:21:52.522Z - success: package-manager loaded
+2020-03-14T15:21:52.523Z - success: qtt-adapter loaded
+2020-03-14T15:21:52.526Z - success: runtime-dev-tools loaded
+2020-03-14T15:21:52.533Z - success: sdkbox loaded
+2020-03-14T15:21:52.536Z - success: ui-kit-preview-extra loaded
+2020-03-14T15:21:52.539Z - success: ui-kit-preview loaded
+2020-03-14T15:21:52.540Z - success: vivo-adapter loaded
+2020-03-14T15:21:52.604Z - success: alipay-minigame loaded
+2020-03-14T15:21:52.667Z - success: assets loaded
+2020-03-14T15:21:52.669Z - success: baidugame-opendata loaded
+2020-03-14T15:21:52.671Z - success: baidugame loaded
+2020-03-14T15:21:52.675Z - success: builder loaded
+2020-03-14T15:21:52.870Z - success: cocos-services loaded
+2020-03-14T15:21:52.875Z - success: console loaded
+2020-03-14T15:21:52.877Z - success: curve-editor loaded
+2020-03-14T15:21:52.889Z - success: fb-instant-games loaded
+2020-03-14T15:21:52.893Z - success: game-window loaded
+2020-03-14T15:21:52.893Z - success: google-instant-games loaded
+2020-03-14T15:21:52.898Z - success: hierarchy loaded
+2020-03-14T15:21:52.902Z - success: huawei-runtime loaded
+2020-03-14T15:21:52.906Z - success: inspector loaded
+2020-03-14T15:21:52.990Z - success: cpk-publish loaded
+2020-03-14T15:21:52.990Z - success: keystore loaded
+2020-03-14T15:21:52.995Z - success: node-library loaded
+2020-03-14T15:21:52.996Z - success: open-recent-items loaded
+2020-03-14T15:21:52.999Z - success: oppo-runtime loaded
+2020-03-14T15:21:53.001Z - success: package-asset loaded
+2020-03-14T15:21:53.002Z - success: preferences loaded
+2020-03-14T15:21:53.006Z - success: project-importer loaded
+2020-03-14T15:21:53.008Z - success: project-settings loaded
+2020-03-14T15:21:53.022Z - success: qtt-runtime loaded
+2020-03-14T15:21:53.026Z - success: scene loaded
+2020-03-14T15:21:53.027Z - success: simulator-debugger loaded
+2020-03-14T15:21:53.028Z - success: sprite-editor loaded
+2020-03-14T15:21:53.031Z - success: store loaded
+2020-03-14T15:21:53.036Z - success: timeline loaded
+2020-03-14T15:21:53.040Z - success: vivo-runtime loaded
+2020-03-14T15:21:53.043Z - success: wechatgame-opendata loaded
+2020-03-14T15:21:53.047Z - success: wechatgame loaded
+2020-03-14T15:21:53.051Z - success: xiaomi-runtime loaded
+2020-03-14T15:21:58.465Z - normal: Initializing Cocos2d
+2020-03-14T15:21:58.799Z - normal: Initializing engine extends
+2020-03-14T15:21:59.485Z - normal: Loading packages
+2020-03-14T15:21:59.487Z - normal: Watching packages
+2020-03-14T15:21:59.560Z - normal: Run Application
+2020-03-15T02:48:43.098Z - normal: Start building with options : {
+  "actualPlatform": "wechatgame",
+  "android": {
+    "packageName": "org.cocos2d.helloworld"
+  },
+  "android-instant": {
+    "REMOTE_SERVER_ROOT": "",
+    "host": "",
+    "packageName": "org.cocos2d.helloworld",
+    "pathPattern": "",
+    "recordPath": "",
+    "scheme": "https",
+    "skipRecord": false
+  },
+  "apiLevel": "",
+  "appABIs": [],
+  "appBundle": false,
+  "buildPath": "/Users/guohanchun/Documents/2019Game/2019Game/build",
+  "buildScriptsOnly": false,
+  "debug": false,
+  "dest": "/Users/guohanchun/Documents/2019Game/2019Game/build/wechatgame",
+  "embedWebDebugger": false,
+  "encryptJs": true,
+  "excludeScenes": [],
+  "excludedModules": [
+    "3D Physics/cannon.js",
+    "3D Physics/Builtin",
+    "3D Particle"
+  ],
+  "fb-instant-games": {},
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": true,
+  "ios": {
+    "packageName": "org.cocos2d.helloworld"
+  },
+  "mac": {
+    "packageName": "org.cocos2d.helloworld"
+  },
+  "md5Cache": false,
+  "mergeStartScene": false,
+  "optimizeHotUpdate": false,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.helloworld",
+  "platform": "mini-game",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "scenes": [
+    "2d2f792f-a40c-49bb-a189-ed176a246e49"
+  ],
+  "sourceMaps": false,
+  "startScene": "2d2f792f-a40c-49bb-a189-ed176a246e49",
+  "template": "link",
+  "title": "2019Game",
+  "useDebugKeystore": true,
+  "vsVersion": "auto",
+  "webOrientation": "auto",
+  "win32": {},
+  "xxteaKey": "d6957c7c-e8ca-49",
+  "zipCompressJs": true,
+  "project": "/Users/guohanchun/Documents/2019Game/2019Game",
+  "projectName": "2019Game",
+  "debugBuildWorker": false
+}
+2020-03-15T02:48:43.101Z - normal: Building /Users/guohanchun/Documents/2019Game/2019Game
+2020-03-15T02:48:43.101Z - normal: Destination /Users/guohanchun/Documents/2019Game/2019Game/build/wechatgame
+2020-03-15T02:48:43.193Z - normal: Delete /Users/guohanchun/Documents/2019Game/2019Game/build/wechatgame/**/*,!/Users/guohanchun/Documents/2019Game/2019Game/build/wechatgame/game.json,!/Users/guohanchun/Documents/2019Game/2019Game/build/wechatgame/project.config.json
+2020-03-15T02:49:26.224Z - normal: Start building assets
+2020-03-15T02:49:26.225Z - normal: Start spawn build-worker
+2020-03-15T02:49:26.806Z - normal: Finish spawn build-worker
+2020-03-15T02:49:26.806Z - normal: Start init build-worker
+2020-03-15T02:49:28.915Z - normal: Finish init build-worker
+2020-03-15T02:49:28.915Z - normal: Start build-assets in worker
+2020-03-15T02:49:29.060Z - normal: Finish build-assets in worker
+2020-03-15T02:49:29.062Z - normal: Finish building assets
+2020-03-15T02:49:29.063Z - normal: Start building plugin scripts
+2020-03-15T02:49:31.725Z - normal: Built wechatgame successfully
+2020-03-15T02:49:46.720Z - normal: Initializing...
+
+2020-03-15T02:49:46.732Z - normal: idePortFile: /Users/guohanchun/Library/Application Support/微信开发者工具/Default/.ide
+
+2020-03-15T02:49:46.750Z - normal: starting ide...
+
+2020-03-15T02:49:49.632Z - normal: IDE server has started, listening on http://127.0.0.1:39903
+
+2020-03-15T02:49:49.633Z - normal: initialization finished
+
+2020-03-15T02:49:49.864Z - error: StatusCodeError: 400 - "{\"code\":40000,\"error\":\"错误 需要重新登录\"}"
+
+    at Socket.<anonymous> (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/wechatgame/utils/wechat-game.js:1:774)
+    at Socket.emit (events.js:194:13)
+    at Socket.EventEmitter.emit (domain.js:469:20)
+    at addChunk (_stream_readable.js:296:12)
+    at readableAddChunk (_stream_readable.js:277:11)
+    at Socket.Readable.push (_stream_readable.js:232:10)
+    at Pipe.onStreamRead (internal/stream_base_commons.js:165:17)
+2020-03-15T03:03:18.806Z - normal: Initializing...
+
+2020-03-15T03:03:18.816Z - normal: idePortFile: /Users/guohanchun/Library/Application Support/微信开发者工具/Default/.ide
+
+2020-03-15T03:03:18.832Z - normal: starting ide...
+
+2020-03-15T03:03:20.774Z - normal: IDE server has started, listening on http://127.0.0.1:43351
+
+2020-03-15T03:03:20.777Z - normal: initialization finished
+
+2020-03-15T03:03:21.712Z - normal: open IDE success
+
+2020-03-15T03:03:37.597Z - normal: Start building with options : {
+  "actualPlatform": "wechatgame",
+  "android": {
+    "packageName": "org.cocos2d.helloworld"
+  },
+  "android-instant": {
+    "REMOTE_SERVER_ROOT": "",
+    "host": "",
+    "packageName": "org.cocos2d.helloworld",
+    "pathPattern": "",
+    "recordPath": "",
+    "scheme": "https",
+    "skipRecord": false
+  },
+  "apiLevel": "",
+  "appABIs": [],
+  "appBundle": false,
+  "buildPath": "/Users/guohanchun/Documents/2019Game/2019Game/build",
+  "buildScriptsOnly": false,
+  "debug": false,
+  "dest": "/Users/guohanchun/Documents/2019Game/2019Game/build/wechatgame",
+  "embedWebDebugger": false,
+  "encryptJs": true,
+  "excludeScenes": [],
+  "excludedModules": [
+    "3D Physics/cannon.js",
+    "3D Physics/Builtin",
+    "3D Particle"
+  ],
+  "fb-instant-games": {},
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": true,
+  "ios": {
+    "packageName": "org.cocos2d.helloworld"
+  },
+  "mac": {
+    "packageName": "org.cocos2d.helloworld"
+  },
+  "md5Cache": false,
+  "mergeStartScene": false,
+  "optimizeHotUpdate": false,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.helloworld",
+  "platform": "mini-game",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "scenes": [
+    "2d2f792f-a40c-49bb-a189-ed176a246e49"
+  ],
+  "sourceMaps": false,
+  "startScene": "2d2f792f-a40c-49bb-a189-ed176a246e49",
+  "template": "link",
+  "title": "2019Game",
+  "useDebugKeystore": true,
+  "vsVersion": "auto",
+  "webOrientation": "auto",
+  "win32": {},
+  "xxteaKey": "d6957c7c-e8ca-49",
+  "zipCompressJs": true,
+  "project": "/Users/guohanchun/Documents/2019Game/2019Game",
+  "projectName": "2019Game",
+  "debugBuildWorker": false
+}
+2020-03-15T03:03:37.598Z - normal: Building /Users/guohanchun/Documents/2019Game/2019Game
+2020-03-15T03:03:37.598Z - normal: Destination /Users/guohanchun/Documents/2019Game/2019Game/build/wechatgame
+2020-03-15T03:03:37.599Z - normal: Delete /Users/guohanchun/Documents/2019Game/2019Game/build/wechatgame/**/*,!/Users/guohanchun/Documents/2019Game/2019Game/build/wechatgame/game.json,!/Users/guohanchun/Documents/2019Game/2019Game/build/wechatgame/project.config.json
+2020-03-15T03:03:39.111Z - normal: Start building assets
+2020-03-15T03:03:39.111Z - normal: Start spawn build-worker
+2020-03-15T03:03:39.694Z - normal: Finish spawn build-worker
+2020-03-15T03:03:39.694Z - normal: Start init build-worker
+2020-03-15T03:03:41.773Z - normal: Finish init build-worker
+2020-03-15T03:03:41.773Z - normal: Start build-assets in worker
+2020-03-15T03:03:41.919Z - normal: Finish build-assets in worker
+2020-03-15T03:03:41.921Z - normal: Finish building assets
+2020-03-15T03:03:41.922Z - normal: Start building plugin scripts
+2020-03-15T03:03:44.681Z - normal: Built wechatgame successfully
+2020-03-15T03:03:47.067Z - normal: Initializing...
+
+2020-03-15T03:03:47.076Z - normal: idePortFile: /Users/guohanchun/Library/Application Support/微信开发者工具/Default/.ide
+
+2020-03-15T03:03:47.096Z - normal: IDE server has started, listening on http://127.0.0.1:43351
+
+2020-03-15T03:03:47.096Z - normal: initialization finished
+
+2020-03-15T03:03:47.583Z - normal: open IDE success
+
+2020-03-15T03:04:11.059Z - normal: Start building with options : {
+  "actualPlatform": "wechatgame",
+  "android": {
+    "packageName": "org.cocos2d.helloworld"
+  },
+  "android-instant": {
+    "REMOTE_SERVER_ROOT": "",
+    "host": "",
+    "packageName": "org.cocos2d.helloworld",
+    "pathPattern": "",
+    "recordPath": "",
+    "scheme": "https",
+    "skipRecord": false
+  },
+  "apiLevel": "",
+  "appABIs": [],
+  "appBundle": false,
+  "buildPath": "/Users/guohanchun/Documents/2019Game/2019Game/build",
+  "buildScriptsOnly": false,
+  "debug": false,
+  "dest": "/Users/guohanchun/Documents/2019Game/2019Game/build/wechatgame",
+  "embedWebDebugger": false,
+  "encryptJs": true,
+  "excludeScenes": [],
+  "excludedModules": [
+    "3D Physics/cannon.js",
+    "3D Physics/Builtin",
+    "3D Particle"
+  ],
+  "fb-instant-games": {},
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": true,
+  "ios": {
+    "packageName": "org.cocos2d.helloworld"
+  },
+  "mac": {
+    "packageName": "org.cocos2d.helloworld"
+  },
+  "md5Cache": true,
+  "mergeStartScene": false,
+  "optimizeHotUpdate": false,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.helloworld",
+  "platform": "mini-game",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "scenes": [
+    "2d2f792f-a40c-49bb-a189-ed176a246e49"
+  ],
+  "sourceMaps": false,
+  "startScene": "2d2f792f-a40c-49bb-a189-ed176a246e49",
+  "template": "link",
+  "title": "2019Game",
+  "useDebugKeystore": true,
+  "vsVersion": "auto",
+  "webOrientation": "auto",
+  "win32": {},
+  "xxteaKey": "d6957c7c-e8ca-49",
+  "zipCompressJs": true,
+  "project": "/Users/guohanchun/Documents/2019Game/2019Game",
+  "projectName": "2019Game",
+  "debugBuildWorker": false
+}
+2020-03-15T03:04:11.060Z - normal: Building /Users/guohanchun/Documents/2019Game/2019Game
+2020-03-15T03:04:11.060Z - normal: Destination /Users/guohanchun/Documents/2019Game/2019Game/build/wechatgame
+2020-03-15T03:04:11.061Z - normal: Delete /Users/guohanchun/Documents/2019Game/2019Game/build/wechatgame/**/*,!/Users/guohanchun/Documents/2019Game/2019Game/build/wechatgame/game.json,!/Users/guohanchun/Documents/2019Game/2019Game/build/wechatgame/project.config.json
+2020-03-15T03:04:12.296Z - normal: Start building assets
+2020-03-15T03:04:12.296Z - normal: Start spawn build-worker
+2020-03-15T03:04:12.873Z - normal: Finish spawn build-worker
+2020-03-15T03:04:12.874Z - normal: Start init build-worker
+2020-03-15T03:04:14.485Z - normal: Finish init build-worker
+2020-03-15T03:04:14.485Z - normal: Start build-assets in worker
+2020-03-15T03:04:14.619Z - normal: Finish build-assets in worker
+2020-03-15T03:04:14.623Z - normal: Finish building assets
+2020-03-15T03:04:14.623Z - normal: Start building plugin scripts
+2020-03-15T03:04:17.041Z - normal: Built wechatgame successfully
+2020-03-15T03:04:22.479Z - normal: Initializing...
+
+2020-03-15T03:04:22.488Z - normal: idePortFile: /Users/guohanchun/Library/Application Support/微信开发者工具/Default/.ide
+
+2020-03-15T03:04:22.508Z - normal: IDE server has started, listening on http://127.0.0.1:43351
+
+2020-03-15T03:04:22.508Z - normal: initialization finished
+
+2020-03-15T03:04:23.068Z - normal: open IDE success
+
