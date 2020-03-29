@@ -1,4 +1,4 @@
-
+var cServerFun = require("ServerFun").ServerFun; 
  
  var GameSDK = cc.Class({
     
@@ -31,7 +31,7 @@
        var gameServer = null;
        if(typeof(wx) != "undefined") 
        {
-            gameServer = wx.getGameServerManager()
+            gameServer = wx.getGameServerManager();
             wx.cloud.init({
                 env: 'mygame-50545d',
                 traceUser:true,
@@ -47,25 +47,24 @@
 
     gameServerLogin(){
         if(typeof(wx) != "undefined"){
-            var PromiseTemp = cc.GameServer.login() 
-            wx.cloud.callFunction({
-                // 要调用的云函数名称
-                name: 'gameLogin11',
-                // 传递给云函数的参数
-                data: {
-                     login: 1,                    
-                },
-                success: res => {
-                    // output: res.result === 3
-                    console.log("login success")
-                },
-                fail: err => {
-                    // handle error
-                },
-                complete: () => {
-                    // ...
-                }
-              })
+
+            var PromiseTemp = cc.GameServer.login(); 
+            cc.ServerFun = new cServerFun;
+            var onHideCallBack =function (resObj){       
+                cc.ServerFun.playerNumUpdate(-1);
+
+            }
+
+            var onShowCallBack = function (resObj){     
+                cc.ServerFun.playerNumUpdate(1);
+ 
+            }
+
+            wx.onHide(onHideCallBack)
+            wx.onShow(onShowCallBack)
+
+            cc.ServerFun.playerNumUpdate(1)
+           
            
 
         }

@@ -31,7 +31,9 @@ cc.Class({
     // onLoad () {},
 
     start () {
-        cc.GameSDK.gameServerLogin()
+        cc.GameSDK.gameServerLogin();
+
+        cc.ServerFun.getPlayerNum();
     },
 
     // update (dt) {},
