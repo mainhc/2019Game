@@ -33,7 +33,14 @@ cc.Class({
     start () {
         cc.GameSDK.gameServerLogin();
 
-        cc.ServerFun.getPlayerNum();
+
+        var playNumNode = this.node.getChildByName('PlayerNode').getChildByName('PlayerNum').getComponent(cc.Label);
+        var sucFun = function (params) {
+            var playNum = params;
+            playNumNode.string = playNum;            
+        }
+
+        cc.ServerFun.getPlayerNum(sucFun);
     },
 
     // update (dt) {},

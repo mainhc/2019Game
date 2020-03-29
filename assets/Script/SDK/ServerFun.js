@@ -25,21 +25,16 @@ var ServerFun = cc.Class({
               })
         },
 
-        getPlayerNum(){
+        getPlayerNum(sucFun){
 
             wx.cloud.callFunction({
                 // 要调用的云函数名称
                 name: 'getPlayerNum',
                
-                success: res => {
-
-                    console.log(res);
-                    var resDate = res.result.data
-                    console.log(resDate)
+                success: res => {                   
+                    var resDate = res.result.data                   
                     var playerNum = resDate.playNum
-                    console.log(playerNum)
-
-                    console.log("login success++++++1");
+                    sucFun(playerNum);                 
                 },
               
               })       
