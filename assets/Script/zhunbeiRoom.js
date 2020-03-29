@@ -41,6 +41,15 @@ cc.Class({
         }
 
         cc.ServerFun.getPlayerNum(sucFun);
+
+        var btnCreatRoom = this.node.getChildByName('createRoomBtn');
+        btnCreatRoom.on('click',this.onBtCreateRoom,this)
+    },
+
+
+    onBtCreateRoom(event){
+        cc.ServerFun.createRoom();
+
     },
 
     // update (dt) {},

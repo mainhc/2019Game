@@ -37,7 +37,34 @@ var ServerFun = cc.Class({
                     sucFun(playerNum);                 
                 },
               
-              })       
+              })    
+        },
+
+        createRoom(){
+
+            var sucFun = function(params) {
+                console.log("create room success........");
+                console.log(params);                
+            };
+
+            var failFun = function (params) {
+                console.log("create room fail ........");
+                console.log(params);
+                
+            };
+            var objRoom = {
+                maxMemberNum:2,
+                startPercent:0,
+                needUserInfo:true,
+                gameLastTime:3600,
+                roomExtInfo:'this good game',
+                memberExtInfo:'hahhaha',
+                needGameSeed:true,
+                success:sucFun,
+                fail:failFun,
+            };
+
+            var PromiseTemp = cc.GameServer.createRoom(objRoom); 
 
         },
     
