@@ -43,14 +43,43 @@ cc.Class({
         cc.ServerFun.getPlayerNum(sucFun);
 
         var btnCreatRoom = this.node.getChildByName('createRoomBtn');
-        btnCreatRoom.on('click',this.onBtCreateRoom,this)
+        btnCreatRoom.on('click',this.onBtCreateRoom,this);
+
+        var timeFunUpdata = function(){
+            cc.GameServer.getRoomInfo()
+            .then(params=>{
+                console.log(params)
+                this.updateRoomList(params)
+            })
+            .catch(params =>{
+                console.log(" get Room info fail++++++++ ")
+            })
+        } 
+
+        this.schedule(timeFunUpdata,5)
     },
 
 
     onBtCreateRoom(event){
-        cc.ServerFun.createRoom();
+
+        var callbackFun = function(params){
+
+           
+        }
+        cc.ServerFun.createRoom(callbackFun);
 
     },
+
+    updateRoomList(params){
+        var akRoomInfoList = params.data.roomInfo;
+
+        console.log(akRoomInfoList);
+        var sclRoomList = this.node.getChildByName('sclRoomList');
+
+
+    },
+
+
 
     // update (dt) {},
 });

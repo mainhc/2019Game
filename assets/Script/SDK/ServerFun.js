@@ -40,18 +40,11 @@ var ServerFun = cc.Class({
               })    
         },
 
-        createRoom(){
+        createRoom(callbackFun){
 
-            var sucFun = function(params) {
-                console.log("create room success........");
-                console.log(params);                
-            };
+          
 
-            var failFun = function (params) {
-                console.log("create room fail ........");
-                console.log(params);
-                
-            };
+            
             var objRoom = {
                 maxMemberNum:2,
                 startPercent:0,
@@ -59,12 +52,36 @@ var ServerFun = cc.Class({
                 gameLastTime:3600,
                 roomExtInfo:'this good game',
                 memberExtInfo:'hahhaha',
-                needGameSeed:true,
-                success:sucFun,
-                fail:failFun,
+                needGameSeed:true,               
             };
 
-            var PromiseTemp = cc.GameServer.createRoom(objRoom); 
+            cc.GameServer.createRoom(objRoom).then(params => {
+                console.log("create room success........");
+                console.log(params);  
+                callbackFun(params);
+                /*var jionRoomSucFun = function (params) {
+                    console.log("jion room success")
+                    console.log(params)
+                    
+                }
+                var failjionRoomFun = function (params) {
+                    console.log("jion rrom fail +++++++ ")
+                }
+                var jionRoomInfo = {
+                    accessInfo:params.data.accessInfo,
+                    memberExtInfo:"wo shi onwer",
+                    success:jionRoomSucFun,
+                    fail:failjionRoomFun,
+
+                };
+                cc.GameServer.joinRoom(jionRoomInfo)*/         
+
+            })
+            .catch(params=>{
+                console.log("create room fail ........");
+                console.log(params);              
+
+            })
 
         },
     

@@ -32,6 +32,8 @@ var cServerFun = require("ServerFun").ServerFun;
        if(typeof(wx) != "undefined") 
        {
             gameServer = wx.getGameServerManager();
+
+            
             wx.cloud.init({
                 env: 'mygame-50545d',
                 traceUser:true,
@@ -44,6 +46,8 @@ var cServerFun = require("ServerFun").ServerFun;
        
        return gameServer
     }, 
+
+  
 
     gameServerLogin(){
         if(typeof(wx) != "undefined"){
@@ -64,6 +68,15 @@ var cServerFun = require("ServerFun").ServerFun;
             wx.onShow(onShowCallBack)
 
             cc.ServerFun.playerNumUpdate(1)
+
+
+            var   gameRoomInfoChange = function (serverRes){
+                console.log(" room info change ++++++++++++++++111  ")
+                console.log(serverRes)
+        
+            }
+
+            cc.GameServer.onRoomInfoChange(gameRoomInfoChange)
            
            
 
